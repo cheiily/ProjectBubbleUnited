@@ -19,8 +19,6 @@ namespace DefaultNamespace {
         public void OnCollisionEnter(Collision other) {
             if ( mFadeStarted )
                 return;
-            Debug.Log("dupa");
-            Debug.Log(mFadeStarted);
             var mats = mesh.materials;
             mats[0] = materialPreset.deadMaterials[0];
             mesh.materials = mats;
