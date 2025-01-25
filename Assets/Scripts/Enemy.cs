@@ -11,7 +11,14 @@ namespace DefaultNamespace {
 
         public MeshRenderer mesh;
 
+        [SerializeField]
+        private float demage;
+
         public void OnCollisionEnter(Collision other) {
+            if(other.gameObject.layer == LayerMask.NameToLayer("Bubble"))
+            {
+                other.gameObject.GetComponent<SphereScript>().growSpeed -= demage;
+            }
             if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
                 // play particles
                 // play sound
