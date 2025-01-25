@@ -41,4 +41,10 @@ public class SphereScript : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log(other);
+        other.gameObject.SetActive(false);
+    }
 }

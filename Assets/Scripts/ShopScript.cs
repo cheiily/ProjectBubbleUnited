@@ -62,6 +62,7 @@ public class ShopScript : MonoBehaviour
                 if (!greenHouse.active)
                 {
                     money -= 5;
+                    sphere.GetComponent<SphereScript>().growSpeed += 5;
                     greenHouse.active = true;
                     moneyDisplay.text = money.ToString();
                     break;
@@ -110,6 +111,7 @@ public class ShopScript : MonoBehaviour
     }
 
     public void LoseGreenhous()
-    { 
+    {
+        sphere.GetComponent<SphereScript>().growSpeed -= 5;
     }
 }
