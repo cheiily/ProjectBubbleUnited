@@ -12,6 +12,12 @@ namespace DefaultNamespace {
         public MeshRenderer mesh;
 
         public void OnCollisionEnter(Collision other) {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
+                // play particles
+                // play sound
+                Destroy(gameObject);
+            }
+
             if ( mFadeStarted )
                 return;
             var mats = mesh.materials;
