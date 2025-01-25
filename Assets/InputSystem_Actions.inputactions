@@ -18,7 +18,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -63,7 +63,7 @@
                     "name": "Next",
                     "type": "Button",
                     "id": "b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -99,6 +99,24 @@
                     "name": "Decelerate",
                     "type": "PassThrough",
                     "id": "8e289deb-d541-425d-acca-c6f2a712d21a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "PassThrough",
+                    "id": "686e4e9f-69b8-4f34-a84e-8b49c4fa3dde",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Spawing",
+                    "type": "PassThrough",
+                    "id": "6df2abe6-810e-4bdb-9ec3-f0bd70a785b3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -510,6 +528,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Decelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5321e7d-7ca1-4fd2-aeac-9d193db18147",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48807d78-a82c-4ecc-92a6-f4bce170b50d",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawing",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
