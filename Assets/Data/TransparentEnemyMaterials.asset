@@ -16,3 +16,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 51f1d4886aba47a449889178d88222a5, type: 2}
   - {fileID: 2100000, guid: b15f4ca8d447751488b018c247f7429b, type: 2}
   - {fileID: 2100000, guid: aafe4a06085b02645b1a257f464e3996, type: 2}
+  deadMaterials:
+  - {fileID: 2100000, guid: 11fce5f6ecc55d24da1f95482520e42a, type: 2}
+  - {fileID: 2100000, guid: e20b2294d3303f54c8a6fb29cbc098cd, type: 2}

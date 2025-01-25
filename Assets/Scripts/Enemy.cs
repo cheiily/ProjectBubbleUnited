@@ -3,33 +3,46 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DefaultNamespace {
     public class Enemy : MonoBehaviour {
         public float TTL = 15;
 
         public TransparentEnemyMaterialsPreset materialPreset;
-        public float materialAlpha = 1.0f;
-        public bool fadeStarted = false;
+        public float mMaterialAlpha = 1.0f;
+        public bool mFadeStarted = false;
+        public bool mUseDeadMaterial = false;
 
         public MeshRenderer mesh;
 
-        private void Start() {
-            mesh = GetComponentInChildren<MeshRenderer>();
+        public void OnCollisionEnter(Collision other) {
+            if ( mFadeStarted )
+                return;
+            Debug.Log("dupa");
+            Debug.Log(mFadeStarted);
+            var mats = mesh.materials;
+            mats[0] = materialPreset.deadMaterials[0];
+            mesh.materials = mats;
+            mUseDeadMaterial = true;
         }
 
         public void Update() {
             TTL -= Time.deltaTime;
-            if (TTL <= 0 & !fadeStarted) {
+            if (TTL <= 0 & !mFadeStarted) {
                 GetComponent<Animator>().enabled = true;
                 mesh.materials = materialPreset.materials.ToArray();
-                fadeStarted = true;
+                if (mUseDeadMaterial) {
+                    var mats = mesh.materials;
+                    mats[0] = materialPreset.deadMaterials[1];
+                    mesh.materials = mats;
+                }
             }
 
-            if (fadeStarted) {
+            if (mFadeStarted) {
                 foreach (var material in mesh.materials) {
                     var color = material.color;
-                    color.a = materialAlpha;
+                    color.a = mMaterialAlpha;
                     material.color = color;
                 }
             }
