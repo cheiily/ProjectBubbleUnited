@@ -9,11 +9,11 @@ public class ShipController : MonoBehaviour {
     public float rotationDamping = 0f;
 
     public float mSpeed = 0;
-    // public
     public Rigidbody mRB;
     public bool mIsAccelerating = false;
     public bool mIsDecelerating = false;
     public Vector2 mMove = Vector2.zero;
+    public Vector2 mLook = Vector2.zero;
 
     private void Awake() {
         mRB = GetComponent<Rigidbody>();
@@ -37,7 +37,7 @@ public class ShipController : MonoBehaviour {
         mSpeed = Mathf.Clamp(mSpeed, -maxSpeed, maxSpeed);
 
         // rotation speed is in input settings
-        transform.Rotate(mMove.y * Time.deltaTime, mMove.x * Time.deltaTime, 0);
+        transform.Rotate(mMove.y * Time.deltaTime, mMove.x * Time.deltaTime, mLook.x * Time.deltaTime);
 
         mRB.linearVelocity = mSpeed * transform.forward;
     }
@@ -51,12 +51,10 @@ public class ShipController : MonoBehaviour {
     }
 
     public void OnMove(InputValue ctx) {
-        Debug.Log(ctx.Get<Vector2>());
-
         mMove = ctx.Get<Vector2>();
+    }
 
-
-        // mRB.rotation = Quaternion.Lerp(mRB.rotation, Quaternion.AngleAxis(ctx.Get<Vector2>().x, mRB.transform.up) * Quaternion.AngleAxis(ctx.Get<Vector2>().y, mRB.transform.right), rotationDamping);
-
+    public void OnLook(InputValue ctx) {
+        mLook = ctx.Get<Vector2>();
     }
 }
