@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class ShipController : MonoBehaviour {
+    public float maxSpeed = 50;
     public float accelerateForce = 10;
     public float accelerationDamping = 0.5f;
     public float rotationDamping = 0f;
@@ -32,6 +33,8 @@ public class ShipController : MonoBehaviour {
         } else if ( mIsDecelerating ) {
             mSpeed -= (accelerateForce * (1 - accelerationDamping) + mSpeed * accelerationDamping) * Time.deltaTime;
         }
+
+        mSpeed = Mathf.Clamp(mSpeed, -maxSpeed, maxSpeed);
 
         // rotation speed is in input settings
         transform.Rotate(mMove.y * Time.deltaTime, mMove.x * Time.deltaTime, 0);
