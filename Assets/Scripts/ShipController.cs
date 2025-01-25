@@ -21,7 +21,8 @@ public class ShipController : MonoBehaviour {
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
-        mRB.linearDamping = rotationDamping;
+        // mRB.linearDamping = rotationDamping;
+        mRB.angularDamping = rotationDamping;
     }
 
     // Update is called once per frame
@@ -40,6 +41,7 @@ public class ShipController : MonoBehaviour {
         transform.Rotate(mMove.y * Time.deltaTime, mMove.x * Time.deltaTime, mLook.x * Time.deltaTime);
 
         mRB.linearVelocity = mSpeed * transform.forward;
+        // mRB.MovePosition(mRB.position + mRB.linearVelocity * Time.deltaTime);
     }
 
     public void OnAccelerate(InputValue ctx) {

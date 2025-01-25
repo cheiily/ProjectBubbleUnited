@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2541841990343186823}
   - component: {fileID: 4417304600825421606}
   - component: {fileID: 5410929579235144572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,8 +120,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TTL: 15
   materialPreset: {fileID: 11400000, guid: 15bcd3af55b3cbc4ba6bb0262921cd10, type: 2}
-  materialAlpha: 1
-  fadeStarted: 0
+  mMaterialAlpha: 1
+  mFadeStarted: 0
+  mUseDeadMaterial: 0
   mesh: {fileID: 2031408523900747269}
 --- !u!1001 &736650218971116904
 PrefabInstance:
@@ -174,6 +175,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af3a4ec5f9ab6b240ac374958c9a29ea, type: 3}
       propertyPath: m_Name
       value: enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af3a4ec5f9ab6b240ac374958c9a29ea, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: af3a4ec5f9ab6b240ac374958c9a29ea, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
