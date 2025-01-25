@@ -3301,6 +3301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Playeur
       objectReference: {fileID: 0}
+    - target: {fileID: 7830830341671500545, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
+      propertyPath: bulletVelocity
+      value: 75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
