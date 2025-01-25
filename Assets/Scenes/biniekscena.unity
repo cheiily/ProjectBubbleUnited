@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: satelite
       objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -549,6 +553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -575,6 +583,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -706,6 +718,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1026,6 +1042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1104,6 +1124,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1292,6 +1316,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1640,6 +1668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1852,6 +1884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1878,6 +1914,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -1957,6 +1997,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -2125,6 +2169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2151,6 +2199,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -2266,6 +2318,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -2398,6 +2454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2424,6 +2484,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -2827,6 +2891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2853,6 +2921,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -3208,6 +3280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3360,6 +3436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3386,6 +3466,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -3465,6 +3549,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -3597,6 +3685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3675,6 +3767,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3815,6 +3911,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4031,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4193,6 +4297,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -4409,6 +4517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oxygen
       objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -4619,6 +4731,7 @@ MonoBehaviour:
   loseRing: {fileID: 1911598484}
   pivot: {fileID: 244717806}
   shop: {fileID: 0}
+  wyrwa: []
 --- !u!135 &1210794964
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4771,6 +4884,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4992,6 +5109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5094,6 +5215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: satelite
       objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -5172,6 +5297,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -5304,6 +5433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5388,6 +5521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5467,6 +5604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5545,6 +5686,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5661,6 +5806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5740,6 +5889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5766,6 +5919,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
@@ -6063,6 +6220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6089,6 +6250,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -6221,6 +6386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hosuing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6300,6 +6469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6326,6 +6499,10 @@ PrefabInstance:
     - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_Name
       value: oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
@@ -6481,6 +6658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oxygen
       objectReference: {fileID: 0}
+    - target: {fileID: 5143596606111430544, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5488315029513923882, guid: a8a69fc9647576d408c0771c9be1efa2, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -6611,6 +6792,10 @@ PrefabInstance:
     - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
       propertyPath: m_Name
       value: turret
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6868,6 +7053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: turret
       objectReference: {fileID: 0}
+    - target: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6946,6 +7135,10 @@ PrefabInstance:
     - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
       propertyPath: m_Name
       value: hosuing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110719415396603153, guid: 5844233e347b31a44bffd26666b8cbe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7080,6 +7273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: satelite
       objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -7158,6 +7355,10 @@ PrefabInstance:
     - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_Name
       value: satelite
+      objectReference: {fileID: 0}
+    - target: {fileID: 389888945738593651, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1018650530457186249, guid: 8dcc7c03ff335684da8d0d48084c1772, type: 3}
       propertyPath: m_LocalScale.x

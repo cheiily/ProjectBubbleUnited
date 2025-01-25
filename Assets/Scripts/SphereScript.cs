@@ -1,6 +1,9 @@
 using NUnit.Framework.Constraints;
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SphereScript : MonoBehaviour
 {
@@ -8,6 +11,7 @@ public class SphereScript : MonoBehaviour
     public bool isGrowing;
     public float growSpeed, minimalSize, finishedSize;
     public GameObject winRing, loseRing, pivot, shop;
+    public List<GameObject> wyrwa;
 
 
     private void Start()
