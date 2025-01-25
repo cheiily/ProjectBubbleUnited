@@ -8,11 +8,14 @@ public class SphereScript : MonoBehaviour
     public Vector3 scaleChang = new Vector3(0.01f, 0.01f, 0.01f);
     public bool isGrowing;
     public float growSpeed, minimalSize, finishedSize;
+    public GameObject winRing, loseRing, pivot;
 
 
     private void Start()
     {
-        beginScale = transform.localScale;
+        winRing.transform.localScale += new Vector3(finishedSize, finishedSize, finishedSize);
+        loseRing.transform.localScale -= new Vector3(minimalSize, minimalSize, minimalSize);
+        beginScale = pivot.transform.localScale;
     }
     
     void Update()
@@ -20,21 +23,21 @@ public class SphereScript : MonoBehaviour
         
         if (isGrowing)
         {
-            if (transform.localScale.y < beginScale.y+finishedSize)
+            if (pivot.transform.localScale.y < beginScale.y+finishedSize)
             {
-                transform.localScale = Vector3.MoveTowards(transform.localScale, beginScale + new Vector3(finishedSize, finishedSize, finishedSize), growSpeed * Time.deltaTime);
+                pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale + new Vector3(finishedSize, finishedSize, finishedSize), growSpeed * Time.deltaTime);
                 //transform.localScale += scaleChang;
             }
         }
         else
         {
-            transform.localScale = Vector3.MoveTowards(transform.localScale, beginScale - new Vector3(minimalSize, minimalSize, minimalSize), growSpeed * Time.deltaTime);
+            pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale - new Vector3(minimalSize, minimalSize, minimalSize), growSpeed * Time.deltaTime);
             //transform.localScale -= scaleChang;
-            if (transform.localScale.y > beginScale.y - minimalSize)
+            if (pivot.transform.localScale.y < beginScale.y - minimalSize + 2f)
             {
                 Debug.Log("Booom");
-                Debug.Log(transform.localScale);
-                isGrowing = true;
+                //Debug.Log(pivot.transform.localScale);
+                //isGrowing = true;
             }
         }
     }
