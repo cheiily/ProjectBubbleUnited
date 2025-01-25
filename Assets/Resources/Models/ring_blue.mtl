@@ -1,10 +1,10 @@
 # Blender 4.3.2 MTL File: 'statek.blend'
 # www.blender.org
 
-newmtl Material.034
+newmtl Material.038
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.000000 0.173331 0.800545
+Kd 0.000000 0.173639 0.802049
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.642111 3.000000
 Ni 1.500000
