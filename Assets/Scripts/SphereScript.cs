@@ -8,7 +8,7 @@ public class SphereScript : MonoBehaviour
     public Vector3 scaleChang = new Vector3(0.01f, 0.01f, 0.01f);
     public bool isGrowing;
     public float growSpeed, minimalSize, finishedSize;
-    public GameObject winRing, loseRing, pivot;
+    public GameObject winRing, loseRing, pivot, shop;
 
 
     private void Start()
@@ -44,7 +44,11 @@ public class SphereScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(other);
         other.gameObject.SetActive(false);
+        if (other.tag == "House")
+            shop.GetComponent<ShopScript>().LoseHouse();
+        else if (other.tag == "Greenhouse")
+            shop.GetComponent<ShopScript>().LoseGreenhous();
+
     }
 }

@@ -66,11 +66,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5a2dc7ab49c2264eb8d3820ce6f3257, type: 3}
       propertyPath: m_Name
-      value: hosuing (8)
+      value: hosuing
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5a2dc7ab49c2264eb8d3820ce6f3257, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5a2dc7ab49c2264eb8d3820ce6f3257, type: 3}
+      propertyPath: m_TagString
+      value: House
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: e5a2dc7ab49c2264eb8d3820ce6f3257, type: 3}
       propertyPath: m_LocalPosition.x
