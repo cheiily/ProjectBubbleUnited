@@ -21,9 +21,6 @@ namespace DefaultNamespace {
             if ( mIsShooting && mTimer >= deltaShoot ) {
                 mTimer = 0;
                 var bullet = Instantiate(bulletPrefab, spawningAnchor.transform.position, spawningAnchor.transform.rotation * Quaternion.Euler(90, 0, 0));
-                // bullet.transform.Rotate(spawningAnchor.transform.forward);
-                // bullet.transform.LookAt(spawningAnchor.transform.position);
-                // bullet.transform.SetLocalPositionAndRotation(bullet.transform.localPosition, Quaternion.Euler(spawningAnchor.transform.forward));
                 var bulletRB = bullet.GetComponent<Rigidbody>();
                 bulletRB.linearVelocity = spawningAnchor.transform.forward * bulletVelocity;
             }
