@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc384f3c67dc1a4cbf1031193fb6c34, type: 3}
+  m_Name: TransparentEnemyMaterials
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 51f1d4886aba47a449889178d88222a5, type: 2}
+  - {fileID: 2100000, guid: b15f4ca8d447751488b018c247f7429b, type: 2}
+  - {fileID: 2100000, guid: aafe4a06085b02645b1a257f464e3996, type: 2}
