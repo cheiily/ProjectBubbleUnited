@@ -22,7 +22,7 @@ namespace DefaultNamespace {
                 other.gameObject.GetComponent<SphereScript>().growSpeed -= demage;
                 GameObject point = Instantiate(wyrwaPrefab, other.gameObject.transform) as GameObject;
                 point.transform.position = other.contacts[0].point;
-                point.transform.LookAt(other.gameObject.transform);
+                //point.transform.LookAt(other.gameObject.transform);
                 other.gameObject.GetComponent<SphereScript>().wyrwa.Add(point);
             }
             if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
