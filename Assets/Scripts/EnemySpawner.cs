@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour {
     public float deltaSpawn = 1.5f;
 
     public LoopMode loopMode = LoopMode.ITERATE_THEN_END;
-    public List<float> waveSpawnTimes;
+    public List<float> waveSpawnTimes = new List<float>(new []{0.0f});
 
     public bool mIsLooping = true;
     public int mLoopIndex = 0;
