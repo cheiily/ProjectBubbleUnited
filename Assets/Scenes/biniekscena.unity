@@ -1839,7 +1839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2285787353369801117, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2529197003691757475, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2356,19 +2356,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2106935670293770964, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1296443628}
     - targetCorrespondingSourceObject: {fileID: 1820313115309799289, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       insertIndex: -1
       addedObject: {fileID: 510213586}
+    - targetCorrespondingSourceObject: {fileID: 1820313115309799289, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1296443628}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
---- !u!224 &384709083 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2106935670293770964, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
-  m_PrefabInstance: {fileID: 384709082}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &384709084 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1820313115309799289, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
@@ -5975,12 +5970,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296443627}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 384709083}
+  m_Father: {fileID: 384709084}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
