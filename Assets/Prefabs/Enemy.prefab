@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e402854cdfa4225b6981cea82b5d5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TTL: 12
+  TTL: 5
   materialPreset: {fileID: 11400000, guid: 15bcd3af55b3cbc4ba6bb0262921cd10, type: 2}
   mMaterialAlpha: 1
   mFadeStarted: 0
