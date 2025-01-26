@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class ShipController : MonoBehaviour {
@@ -12,7 +13,7 @@ public class ShipController : MonoBehaviour {
     public Rigidbody mRB;
     public bool mIsAccelerating = false;
     public bool mIsDecelerating = false;
-    public bool mIsSpawing = false;
+    public bool mIsRepairing = false;
     public Vector2 mMove = Vector2.zero;
     public Vector2 mLook = Vector2.zero;
     //public Vector3 resetPos = transform.position;
@@ -68,6 +69,15 @@ public class ShipController : MonoBehaviour {
     }
 
     public void OnSpawing(InputValue ctx) {
-        mIsSpawing = ctx.isPressed;
+        mIsRepairing = ctx.isPressed;
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if(mIsRepairing && other.gameObject.tag == "Hole")
+        {
+            other.GetComponentInParent<SphereScript>().Repair(other.gameObject);
+        }
+    }
+
 }

@@ -118,14 +118,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e402854cdfa4225b6981cea82b5d5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TTL: 15
+  TTL: 5
   materialPreset: {fileID: 11400000, guid: 15bcd3af55b3cbc4ba6bb0262921cd10, type: 2}
   mMaterialAlpha: 1
   mFadeStarted: 0
   mUseDeadMaterial: 0
   mesh: {fileID: 2031408523900747269}
   wyrwaPrefab: {fileID: 8437031658313937939, guid: af75ccc923c7eae48a5f0e64af72ca8e, type: 3}
-  demage: 10
+  demage: 3
 --- !u!1001 &736650218971116904
 PrefabInstance:
   m_ObjectHideFlags: 0

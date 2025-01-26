@@ -4,11 +4,13 @@ using static UnityEngine.GraphicsBuffer;
 namespace DefaultNamespace {
     public class Enemy : MonoBehaviour {
         public float TTL = 15;
+        public float MaxTTL = 120;
 
         public TransparentEnemyMaterialsPreset materialPreset;
         public float mMaterialAlpha = 1.0f;
         public bool mFadeStarted = false;
         public bool mUseDeadMaterial = false;
+        public bool mStartedTTLFade = false;
 
         public MeshRenderer mesh;
         public GameObject wyrwaPrefab;
@@ -22,8 +24,9 @@ namespace DefaultNamespace {
                 other.gameObject.GetComponent<SphereScript>().growSpeed -= demage;
                 GameObject point = Instantiate(wyrwaPrefab, other.gameObject.transform) as GameObject;
                 point.transform.position = other.contacts[0].point;
-                point.transform.LookAt(other.gameObject.transform);
+                //point.transform.LookAt(other.gameObject.transform);
                 other.gameObject.GetComponent<SphereScript>().wyrwa.Add(point);
+                mStartedTTLFade = true;
             }
             if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
                 // play particles
@@ -40,8 +43,11 @@ namespace DefaultNamespace {
         }
 
         public void Update() {
-            TTL -= Time.deltaTime;
-            if (TTL <= 0 & !mFadeStarted) {
+            if (mStartedTTLFade) {
+                TTL -= Time.deltaTime;
+            }
+            MaxTTL -= Time.deltaTime;
+            if ( (TTL <= 0 || MaxTTL < 0) & !mFadeStarted) {
                 GetComponent<Animator>().enabled = true;
                 mesh.materials = materialPreset.materials.ToArray();
                 if (mUseDeadMaterial) {
