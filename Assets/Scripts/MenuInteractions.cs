@@ -10,7 +10,7 @@ public class MenuInteractions : MonoBehaviour
     public Button defaultShopButton;
 
     public void OnSouth(InputValue ctx) {
-        if (ctx.isPressed && shopVicinity.isWithin) {
+        if (ctx.isPressed && shopVicinity.isWithin && !shopPanel.active) {
             Time.timeScale = 0;
             shopPanel.SetActive(true);
             EventSystem.current.SetSelectedGameObject(defaultShopButton.gameObject);
