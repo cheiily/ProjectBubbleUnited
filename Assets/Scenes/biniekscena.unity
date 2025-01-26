@@ -1846,6 +1846,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BuyGreenhous
       objectReference: {fileID: 0}
+    - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: houses.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: radars.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: greenHouses.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4766060194022358856, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_Name
       value: shop
@@ -1949,11 +1961,6 @@ PrefabInstance:
       addedObject: {fileID: 1617234451}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
---- !u!1 &384709083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4766060194022358856, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
-  m_PrefabInstance: {fileID: 384709082}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &384709084 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1820313115309799289, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
@@ -3588,7 +3595,7 @@ PrefabInstance:
     - target: {fileID: 9088943491058575807, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: shopPanel
       value: 
-      objectReference: {fileID: 384709083}
+      objectReference: {fileID: 1402636550}
     - target: {fileID: 9088943491058575807, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: shopVicinity
       value: 
@@ -4303,11 +4310,11 @@ PrefabInstance:
     - target: {fileID: 5852986157697687551, guid: ca01047e8a6642446ac4b341efae2388, type: 3}
       propertyPath: onExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1402636550}
+      objectReference: {fileID: 712241420}
     - target: {fileID: 5852986157697687551, guid: ca01047e8a6642446ac4b341efae2388, type: 3}
       propertyPath: onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1402636550}
+      objectReference: {fileID: 712241420}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
