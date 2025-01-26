@@ -54,7 +54,7 @@
                     "name": "Previous",
                     "type": "Button",
                     "id": "2776c80d-3c14-4091-8c56-d04ced07a2b0",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -117,6 +117,15 @@
                     "name": "Spawing",
                     "type": "PassThrough",
                     "id": "6df2abe6-810e-4bdb-9ec3-f0bd70a785b3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Repair",
+                    "type": "PassThrough",
+                    "id": "0d916a83-35a4-4d37-8ac6-9382f49422d4",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -550,6 +559,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Spawing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c6a1296-d11e-422d-bc62-7da6d0eca740",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Repair",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

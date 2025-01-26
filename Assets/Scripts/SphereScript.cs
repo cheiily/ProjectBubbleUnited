@@ -54,8 +54,17 @@ public class SphereScript : MonoBehaviour
             shop.GetComponent<ShopScript>().LoseGreenhous();
     }
 
-    public void Repair()
+    public void Repair(GameObject sphereBreak)
     {
-        growSpeed += 10;
+        foreach (GameObject checkBreak in wyrwa)
+        {
+            if (sphereBreak == checkBreak)
+            {
+                wyrwa.Remove(checkBreak);
+                Destroy(sphereBreak);
+                growSpeed += 10;
+                break;
+            }
+        }
     }
 }
