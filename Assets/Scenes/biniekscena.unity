@@ -3039,15 +3039,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327427225583626421, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 88.9
+      value: -10.9
       objectReference: {fileID: 0}
     - target: {fileID: 2327427225583626421, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 85.7
+      value: 186.3
       objectReference: {fileID: 0}
     - target: {fileID: 2327427225583626421, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.2
+      value: 28.6
       objectReference: {fileID: 0}
     - target: {fileID: 2327427225583626421, guid: f5affcab0a84f024d9e12ba3d8d2503a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3659,6 +3659,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 244717807}
+    - target: {fileID: 1122651367694508141, guid: 7551b6cca2183784cbb0e06ff049ad5e, type: 3}
+      propertyPath: loopMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122651367694508141, guid: 7551b6cca2183784cbb0e06ff049ad5e, type: 3}
+      propertyPath: loopTimes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122651367694508141, guid: 7551b6cca2183784cbb0e06ff049ad5e, type: 3}
+      propertyPath: 'loopTimes.Array.data[0]'
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3255736959779046587, guid: 7551b6cca2183784cbb0e06ff049ad5e, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
@@ -4273,6 +4285,7 @@ MonoBehaviour:
   pivot: {fileID: 244717806}
   shop: {fileID: 0}
   wyrwa: []
+  presTo: {fileID: 0}
 --- !u!135 &1210794964
 SphereCollider:
   m_ObjectHideFlags: 0
