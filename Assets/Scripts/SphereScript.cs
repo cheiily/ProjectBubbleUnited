@@ -1,14 +1,17 @@
 using NUnit.Framework.Constraints;
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SphereScript : MonoBehaviour
 {
     private Vector3 beginScale;
-    public Vector3 scaleChang = new Vector3(0.01f, 0.01f, 0.01f);
     public bool isGrowing;
     public float growSpeed, minimalSize, finishedSize;
     public GameObject winRing, loseRing, pivot, shop;
+    public List<GameObject> wyrwa;
 
 
     private void Start()
@@ -21,7 +24,7 @@ public class SphereScript : MonoBehaviour
     void Update()
     {
         
-        if (isGrowing)
+        if (growSpeed>0)
         {
             if (pivot.transform.localScale.y < beginScale.y+finishedSize)
             {
@@ -29,9 +32,9 @@ public class SphereScript : MonoBehaviour
                 //transform.localScale += scaleChang;
             }
         }
-        else
+        else if(growSpeed<0)
         {
-            pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale - new Vector3(minimalSize, minimalSize, minimalSize), growSpeed * Time.deltaTime);
+            pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale - new Vector3(minimalSize, minimalSize, minimalSize), -growSpeed * Time.deltaTime);
             //transform.localScale -= scaleChang;
             if (pivot.transform.localScale.y < beginScale.y - minimalSize + 2f)
             {
@@ -49,6 +52,10 @@ public class SphereScript : MonoBehaviour
             shop.GetComponent<ShopScript>().LoseHouse();
         else if (other.tag == "Greenhouse")
             shop.GetComponent<ShopScript>().LoseGreenhous();
+    }
 
+    public void Repair()
+    {
+        growSpeed += 10;
     }
 }

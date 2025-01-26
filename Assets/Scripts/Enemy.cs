@@ -10,8 +10,19 @@ namespace DefaultNamespace {
         public bool mUseDeadMaterial = false;
 
         public MeshRenderer mesh;
+        public GameObject wyrwaPrefab;
+
+        [SerializeField]
+        private float demage;
 
         public void OnCollisionEnter(Collision other) {
+            if(other.gameObject.layer == LayerMask.NameToLayer("Bubble"))
+            {
+                other.gameObject.GetComponent<SphereScript>().growSpeed -= demage;
+                GameObject point = Instantiate(wyrwaPrefab, other.gameObject.transform) as GameObject;
+                point.transform.position = other.contacts[0].point;
+                other.gameObject.GetComponent<SphereScript>().wyrwa.Add(point);
+            }
             if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
                 // play particles
                 // play sound
