@@ -14,6 +14,7 @@ public class ShipController : MonoBehaviour {
     public bool mIsDecelerating = false;
     public Vector2 mMove = Vector2.zero;
     public Vector2 mLook = Vector2.zero;
+    //public Vector3 resetPos = transform.position;
 
     private void Awake() {
         mRB = GetComponent<Rigidbody>();
@@ -42,6 +43,11 @@ public class ShipController : MonoBehaviour {
 
         mRB.linearVelocity = mSpeed * transform.forward;
         // mRB.MovePosition(mRB.position + mRB.linearVelocity * Time.deltaTime);
+
+        if (transform.position.y < 60 ) {
+            //Debug.Log("SIGMA");
+            transform.position = new Vector3 (transform.position.x, transform.position.y + 300, transform.position.z);
+        }
     }
 
     public void OnAccelerate(InputValue ctx) {
