@@ -20,7 +20,7 @@ public class ShopScript : MonoBehaviour
         timer = 0;
         zarabianing = 1;
         money = 0;
-        moneyDisplay.text = money.ToString();
+        moneyDisplay.text = "$" + money.ToString();
     }
     private void Update()
     {
@@ -30,7 +30,7 @@ public class ShopScript : MonoBehaviour
         {
             timer = 0;
             money += zarabianing;
-            moneyDisplay.text = money.ToString();
+            moneyDisplay.text = "$" + money.ToString();
         }
     }
 
@@ -46,7 +46,7 @@ public class ShopScript : MonoBehaviour
                     money -= 5;
                     zarabianing++;
                     house.active = true;
-                    moneyDisplay.text = money.ToString();
+                    moneyDisplay.text = "$" + money.ToString();
                     break;
                 }
             }
@@ -64,7 +64,7 @@ public class ShopScript : MonoBehaviour
                     money -= 5;
                     sphere.GetComponent<SphereScript>().growSpeed += 5;
                     greenHouse.active = true;
-                    moneyDisplay.text = money.ToString();
+                    moneyDisplay.text = "$" + money.ToString();
                     break;
                 }
             }
@@ -81,7 +81,7 @@ public class ShopScript : MonoBehaviour
                 {
                     money -= 5;
                     turetr.active = true;
-                    moneyDisplay.text = money.ToString();
+                    moneyDisplay.text = "$" + money.ToString();
                     break;
                 }
             }
@@ -98,7 +98,7 @@ public class ShopScript : MonoBehaviour
                 {
                     money -= 5;
                     radar.active = true;
-                    moneyDisplay.text = money.ToString();
+                    moneyDisplay.text = "$" + money.ToString();
                     break;
                 }
             }
