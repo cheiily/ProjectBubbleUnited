@@ -125,7 +125,7 @@ MonoBehaviour:
   mUseDeadMaterial: 0
   mesh: {fileID: 2031408523900747269}
   wyrwaPrefab: {fileID: 8437031658313937939, guid: af75ccc923c7eae48a5f0e64af72ca8e, type: 3}
-  demage: 10
+  demage: 3
 --- !u!1001 &736650218971116904
 PrefabInstance:
   m_ObjectHideFlags: 0
