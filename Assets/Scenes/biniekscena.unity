@@ -1942,6 +1942,14 @@ PrefabInstance:
       value: BuyGreenhous
       objectReference: {fileID: 0}
     - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 1799211117}
+    - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 1210794962}
+    - target: {fileID: 4716754988297045802, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: houses.Array.size
       value: 20
       objectReference: {fileID: 0}
@@ -2362,7 +2370,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1820313115309799289, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1296443628}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 477536186280540499, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1799211121}
   m_SourcePrefab: {fileID: 100100000, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
 --- !u!224 &384709084 stripped
 RectTransform:
@@ -8567,6 +8578,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5345597129186845115, guid: 9ca06b28e14230842992cc5bc63d55f0, type: 3}
   m_PrefabInstance: {fileID: 1779781920}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1799211117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 477536186280540499, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+  m_PrefabInstance: {fileID: 384709082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1799211118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2639136030807868051, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+  m_PrefabInstance: {fileID: 384709082}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799211117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1799211121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799211117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51c11057e12a0740990329c8505be49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zarabianing: 0
+  moneyDisplay: {fileID: 1799211118}
+  money: 0
+  waitTime: 3
 --- !u!1001 &1835560489
 PrefabInstance:
   m_ObjectHideFlags: 0
