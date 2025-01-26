@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class SphereScript : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class SphereScript : MonoBehaviour
     public bool isGrowing;
     public float growSpeed, minimalSize, finishedSize;
     public GameObject winRing, loseRing, pivot, shop;
+    public TMP_Text showSize;
     public List<GameObject> wyrwa;
 
     public GameObject winCanvas, loseCanvas;
@@ -29,6 +31,7 @@ public class SphereScript : MonoBehaviour
         {
             if (pivot.transform.localScale.y < beginScale.y+finishedSize)
             {
+                showSize.text = ((int)(pivot.transform.localScale.x - minimalSize)).ToString()+"/"+((int)(beginScale.x + finishedSize)).ToString();
                 pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale + new Vector3(finishedSize, finishedSize, finishedSize), growSpeed * Time.deltaTime);
                 //transform.localScale += scaleChang;
             } else {
@@ -37,6 +40,7 @@ public class SphereScript : MonoBehaviour
         }
         else if(growSpeed<0)
         {
+            showSize.text = ((int)(pivot.transform.localScale.x - minimalSize)).ToString() + "/" + ((int)(beginScale.x + finishedSize)).ToString();
             pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale - new Vector3(minimalSize, minimalSize, minimalSize), -growSpeed * Time.deltaTime);
             //transform.localScale -= scaleChang;
             if (pivot.transform.localScale.y < beginScale.y - minimalSize + 2f)
