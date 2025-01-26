@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 3873804933405766132}
   - component: {fileID: 1329566213306719399}
   - component: {fileID: 7830830341671500545}
+  - component: {fileID: 9088943491058575807}
   m_Layer: 6
   m_Name: Playeur
   m_TagString: Untagged
@@ -380,7 +381,7 @@ MonoBehaviour:
   maxSpeed: 50
   accelerateForce: 10
   accelerationDamping: 0.5
-  rotationDamping: 0.5
+  rotationDamping: 0.8
   mSpeed: 0
   mRB: {fileID: 0}
   mIsAccelerating: 0
@@ -449,10 +450,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawningAnchor: {fileID: 6831336349498253766}
   bulletPrefab: {fileID: 3990001299207166475, guid: a74a1a636eb7af446ae8385083068866, type: 3}
-  bulletVelocity: 50
+  bulletVelocity: 75
   deltaShoot: 0.5
   mTimer: 0
   mIsShooting: 0
+--- !u!114 &9088943491058575807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972034766032632339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7cc9983a8fd9f542a8428a204ba544c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopVicinity: {fileID: 0}
+  shopPanel: {fileID: 0}
 --- !u!1001 &1139163169581163700
 PrefabInstance:
   m_ObjectHideFlags: 0
