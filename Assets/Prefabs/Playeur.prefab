@@ -386,6 +386,7 @@ MonoBehaviour:
   mRB: {fileID: 0}
   mIsAccelerating: 0
   mIsDecelerating: 0
+  mIsRepairing: 0
   mMove: {x: 0, y: 0}
   mLook: {x: 0, y: 0}
 --- !u!54 &3873804933405766132
@@ -450,8 +451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawningAnchor: {fileID: 6831336349498253766}
   bulletPrefab: {fileID: 3990001299207166475, guid: a74a1a636eb7af446ae8385083068866, type: 3}
-  bulletVelocity: 75
-  deltaShoot: 0.5
+  bulletVelocity: 300
+  deltaShoot: 0.25
   mTimer: 0
   mIsShooting: 0
 --- !u!114 &9088943491058575807
@@ -468,6 +469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shopVicinity: {fileID: 0}
   shopPanel: {fileID: 0}
+  defaultShopButton: {fileID: 0}
 --- !u!1001 &1139163169581163700
 PrefabInstance:
   m_ObjectHideFlags: 0
