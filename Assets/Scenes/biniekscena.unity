@@ -1399,6 +1399,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2285787353369801117, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2529197003691757475, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2550877305283363875, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 4
@@ -1457,7 +1465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766060194022358856, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4831182771336271152, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_Navigation.m_Mode
@@ -1486,6 +1494,18 @@ PrefabInstance:
     - target: {fileID: 4831182771336271152, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BuyTuret
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022624585365545700, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729680552863650398, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018200380726913553, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21
       objectReference: {fileID: 0}
     - target: {fileID: 6066245085240388430, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2361,7 +2381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -389}
+  m_AnchoredPosition: {x: 0, y: -211}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510213587
@@ -3808,11 +3828,11 @@ PrefabInstance:
     - target: {fileID: 5852986157697687551, guid: ca01047e8a6642446ac4b341efae2388, type: 3}
       propertyPath: onExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 712241420}
+      objectReference: {fileID: 1402636550}
     - target: {fileID: 5852986157697687551, guid: ca01047e8a6642446ac4b341efae2388, type: 3}
       propertyPath: onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 712241420}
+      objectReference: {fileID: 1402636550}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4825,6 +4845,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355444460}
   m_CullTransparentMesh: 1
+--- !u!1 &1402636550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2285787353369801117, guid: 07ac176c7af2f42499e8f0cd8e27db43, type: 3}
+  m_PrefabInstance: {fileID: 384709082}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1410962570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5584,8 +5609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -263}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -159, y: 6}
+  m_SizeDelta: {x: 1.5046, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1617234452
 MonoBehaviour:
