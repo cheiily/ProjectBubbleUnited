@@ -7,6 +7,7 @@ TagManager:
   - PlayerBulletSpawningAnchor
   - Greenhouse
   - House
+  - Hole
   layers:
   - Default
   - TransparentFX
