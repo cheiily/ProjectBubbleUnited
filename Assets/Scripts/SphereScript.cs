@@ -12,6 +12,7 @@ public class SphereScript : MonoBehaviour
     public float growSpeed, minimalSize, finishedSize;
     public GameObject winRing, loseRing, pivot, shop;
     public List<GameObject> wyrwa;
+    public GameObject presTo;
 
 
     private void Start()
