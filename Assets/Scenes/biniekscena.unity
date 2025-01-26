@@ -4265,9 +4265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrowing: 1
-  growSpeed: 40
+  growSpeed: 12
   minimalSize: 20
-  finishedSize: 300
+  finishedSize: 390
   winRing: {fileID: 1627450566}
   loseRing: {fileID: 1911598484}
   pivot: {fileID: 244717806}
