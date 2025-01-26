@@ -16,6 +16,7 @@ public class ShipController : MonoBehaviour {
     public bool mIsRepairing = false;
     public Vector2 mMove = Vector2.zero;
     public Vector2 mLook = Vector2.zero;
+    public GameObject canRepair;
     //public Vector3 resetPos = transform.position;
 
     private void Awake() {
@@ -74,10 +75,18 @@ public class ShipController : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if(mIsRepairing && other.gameObject.tag == "Hole")
-        {
-            other.GetComponentInParent<SphereScript>().Repair(other.gameObject);
+        if (other.gameObject.tag == "Hole") {
+            canRepair.SetActive(true);
+            if (mIsRepairing)
+            {
+                other.GetComponentInParent<SphereScript>().Repair(other.gameObject);
+            }
         }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Hole")
+            canRepair.SetActive(false);
     }
 
 }
