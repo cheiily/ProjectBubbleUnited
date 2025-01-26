@@ -74,10 +74,10 @@ public class ShipController : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log(other);
-        if (mIsRepairing && other.tag=="Hole")
+        if(mIsRepairing && other.gameObject.tag == "Hole")
         {
             other.GetComponentInParent<SphereScript>().Repair(other.gameObject);
         }
     }
+
 }
