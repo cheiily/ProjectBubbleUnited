@@ -15,6 +15,8 @@ namespace DefaultNamespace {
         public MeshRenderer mesh;
         public GameObject wyrwaPrefab;
 
+        public GameObject boom; 
+
         [SerializeField]
         private float demage;
 
@@ -26,6 +28,7 @@ namespace DefaultNamespace {
                 point.transform.position = other.contacts[0].point;
                 //point.transform.LookAt(other.gameObject.transform);
                 other.gameObject.GetComponent<SphereScript>().wyrwa.Add(point);
+                boom.SetActive(false);
                 mStartedTTLFade = true;
             }
             if (other.gameObject.layer == LayerMask.NameToLayer("Bullets")) {
