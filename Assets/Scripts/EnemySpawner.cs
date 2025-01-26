@@ -4,6 +4,7 @@ public class EnemySpawner : MonoBehaviour {
     public GameObject enemyPrefab;
     public Transform target;
     public Vector3 variance = new(50.0f, 50.0f, 50.0f);
+    public float delaySpawn = 0;
     public int maxEnemies = 3;
     public float deltaSpawn = 1.5f;
 
@@ -18,6 +19,13 @@ public class EnemySpawner : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         mTimer += Time.deltaTime;
+        if (mTimer < delaySpawn) {
+            return;
+        } else {
+            delaySpawn = -1;
+            mTimer = 0;
+        }
+
         if ( mTimer >= deltaSpawn && mSpawned < maxEnemies ) {
             mTimer = 0;
             mSpawned++;
