@@ -13,6 +13,7 @@ public class SphereScript : MonoBehaviour
     public GameObject winRing, loseRing, pivot, shop;
     public List<GameObject> wyrwa;
 
+    public GameObject winCanvas, loseCanvas;
 
     private void Start()
     {
@@ -30,6 +31,8 @@ public class SphereScript : MonoBehaviour
             {
                 pivot.transform.localScale = Vector3.MoveTowards(pivot.transform.localScale, beginScale + new Vector3(finishedSize, finishedSize, finishedSize), growSpeed * Time.deltaTime);
                 //transform.localScale += scaleChang;
+            } else {
+                winCanvas.SetActive(true);
             }
         }
         else if(growSpeed<0)
@@ -38,6 +41,7 @@ public class SphereScript : MonoBehaviour
             //transform.localScale -= scaleChang;
             if (pivot.transform.localScale.y < beginScale.y - minimalSize + 2f)
             {
+                loseCanvas.SetActive(true);
                 Debug.Log("Booom");
                 //Debug.Log(pivot.transform.localScale);
                 //isGrowing = true;
