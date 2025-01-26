@@ -12,6 +12,7 @@ public class ShipController : MonoBehaviour {
     public Rigidbody mRB;
     public bool mIsAccelerating = false;
     public bool mIsDecelerating = false;
+    public bool mIsSpawing = false;
     public Vector2 mMove = Vector2.zero;
     public Vector2 mLook = Vector2.zero;
     //public Vector3 resetPos = transform.position;
@@ -64,5 +65,9 @@ public class ShipController : MonoBehaviour {
 
     public void OnLook(InputValue ctx) {
         mLook = ctx.Get<Vector2>();
+    }
+
+    public void OnSpawing(InputValue ctx) {
+        mIsSpawing = ctx.isPressed;
     }
 }
